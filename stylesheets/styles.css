@@ -151,6 +151,16 @@ img {
   border: 1px solid #ccc;
 }
 
+.noborder img {
+  position: relative;
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 0px;
+  margin: 0px 0 0px 0;
+  border: none;
+}
+
+
 p img {
   display: inline;
   margin: 0;
