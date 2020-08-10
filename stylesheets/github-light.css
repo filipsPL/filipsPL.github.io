@@ -114,3 +114,39 @@
   color: #1d3e81;
 }
 
+.year {
+  background-color:black;
+  color:white;
+}
+
+.year::before {
+  content: "[";
+}
+.year::after {
+  content: "]";
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 12px; */
+  margin: 4px 2px;
+  border-radius: 4px;
+}
+
+.buttontox {  background-color: #996633;}
+  .buttontox::before {content: "toxicology";}
+.buttonmdechem {  background-color: green;}
+  .buttonmdechem::before {content: "medicinal chemistry";}
+.buttonmodeling {  background-color: orange;}
+  .buttonmodeling::before {content: "molecular modelling";}
+.buttonsoftware {  background-color: maroon;}
+  .buttonsoftware::before {content: "software";}
+.buttonmdata {  background-color: blue;}
+  .buttonmdata::before {content: "data mining";}
+.buttonreview {  background-color: silver;}
+  .buttonreview::before {content: "review";}
