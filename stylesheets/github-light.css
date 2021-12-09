@@ -150,3 +150,17 @@
   .buttonmdata::before {content: "data mining";}
 .buttonreview {  background-color: silver;}
   .buttonreview::before {content: "review";}
+.buttonRNA {  background-color: #c44dff;}
+    .buttonRNA::before {content: "RNA";}
+.buttonProtein {  background-color: #4da6ff;}
+    .buttonProtein::before {content: "proteins";}
+
+
+.paperMain {  background-color: #e8e8e8;}
+
+
+hr.dashed {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
