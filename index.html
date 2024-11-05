@@ -18,7 +18,11 @@
 <body>
   <div class="wrapper">
     <header>
+
       <h1 class="header">Filip Stefaniak</h1>
+      <p>eng., PhD, hab.</p>
+
+      <hr />
       <p class="header"><a href="index.html">personal homepage<a /></p>
       <ul>
         <li><a href="pubs.html">Publications</a></a>
@@ -27,128 +31,104 @@
     </header>
     <section>
 
-      <h3>Hello! 👋</h3>
+      <h2>🄌 Hello! 👋</h2>
 
       <img src="images/filip-matrix.jpg" alt="Filip himself as a matrix" />
 
-      <p>I'm the organic chemist by training with seven years med-chem and CADD experience in pharma companies.
-        Currently, in academia, I focus on the translation of computational algorithms to new bioactive compounds. I'm
-        the Machine Learning enthusiast.</p>
+      <p>Senior Scientist at IIMCB in Warsaw, with PhD in Organic Chemisty and seven years of experience in Pharma
+        Industry R&D (MedChem and Computer Aided Drug Design). Currently working on data-driven computational methods
+        for RNA-small molecule ligands.</p>
 
+      <ul>
+        <li>Computing since 1988 (Timex)</li>
+        <li>Programming since 1989 (BASIC and logo 🐢)</li>
+        <li>Chemistry since 1990 (water electrolysis)</li>
+        <li>In the internet since 1994 (EARN and Bitnet, gopher and telnet)</li>
+        <li>Linux since kernel 2.0.39 (freesco)</li>
+        <li>Machine learning since 2010 (Decision Trees and KNIME 2.3.0)</li>
+      </ul>
 
       <div class="noborder">
         <img src="images/shields-email.png" alt="badge" /><br />
-        <a href="data/gpg_0xD4E57E96FCAF10F3.asc"><img src="images/shields-gpg.png" alt="badge" /></a><br />
-        <img src="images/shields-facebook.png" alt="badge" />
+        <a href="data/gpg_0xD4E57E96FCAF10F3.asc"><img src="images/shields-gpg.png" alt="badge" /></a>
       </div>
 
 
-      <h3>Scientific projects</h3>
+
+      <h2>❶ Science 🧬</h2>
 
       <p>See also: <a href="pubs.html">Scientific publications</a></p>
 
-      <h4>Prediction of compound activity and toxicity</h4>
-
-      <p>I've created the pipeline for fast and reliable prediction of compound activity and toxicity. This approach was
-        ranked in the top five most accurate predictions in the <a href="https://tripod.nih.gov/tox21/challenge/">2014
-          NIH Tox21 challenge</a>. For more information, see: Prediction of Compounds Activity in Nuclear Receptor
-        Signaling and Stress Pathway Assays Using Machine Learning Algorithms and Low-Dimensional Molecular Descriptors,
-        <a href="http://journal.frontiersin.org/article/10.3389/fenvs.2015.00077/full">Front. Environ. Sci., 01 December
-          2015</a> | http://dx.doi.org/10.3389/fenvs.2015.00077</p>
-
-      <p><img src="images/tox-pipeline.png" alt="pipeline" /></p>
-
-
-      <h4>A new scoring function for predicting RNA ligand interactions</h4>
-
-      <p>I develop the new scoring function for predicting RNA - small molecule ligand interactions. With help of deep
-        learning methods.</p>
-
-      <p><img src="images/xy-scoring.png" alt="pipeline" /></p>
-
-
-      <h4>Computer Aided Drug Design</h4>
-
-      <p>I'm involved in several projects focusing on the developement of new bioactive molecules. Recently published
-        paper: Discovery of TRAF-2 and NCK-interacting kinase
-        (TNIK) inhibitors by ligand-based virtual screening methods, <a
-          href="http://pubs.rsc.org/en/Content/ArticleLanding/2015/MD/C5MD00090D">Med. Chem. Commun., 2015, 6,
-          1564–1572</a></p>
-
-      <p><img src="images/tnik-fig1.png" alt="binding pocket" /></p>
-
-      <p>Currently I'm involved in the developement of the new, selective inhibitors of flavivirus methyltransferases
-        (Yellow Fever Virus, Dengue Virus, West Nile Virus and Zika Virus).</p>
-
-
-      <h3>Non scientific projects</h3>
-
-      <h4>Runs statistics</h4>
-
-      <p>A <a href="https://filipspl.github.io/statystykibiegowe/">collection of statistics</a> of various runs and road
-        races (5, 10, 21, 42 km) in Poland (in polish).</p>
-
-      <img src="images/running-violinplot-plec.png" alt="violin plot" />
-
-
-      <h3>Professional skills</h3>
-
-      <h4>New bioinformatics methods</h4>
+      <h3 id="-rna-ligand-interactions">ⓐ RNA-ligand interactions</h3>
       <ul>
-        <li>AnnapuRNA scoring function <a href="https://doi.org/10.1371/journal.pcbi.1008309">paper</a></li>
-        <li>fingeRNAt interaction fingerprints <a href="https://doi.org/10.1371/journal.pcbi.1009783">paper 1</a> and <a
-            href="https://doi.org/10.1093/bib/bbad187">paper 2</a> </li>
-        <li>... see: <a href="https://scholar.google.pl/citations?user=NPbqGT8AAAAJ&hl=pl&oi=ao">google scholar</a></li>
-      </ul>
-
-
-      <h4>Computers</h4>
-      <ul>
-        <li>Python - coding & crator and maintainer of the official python packages:</li>
-        <ul>
-          <li><a href="https://pypi.org/project/optuml/">optuml</a>: Hyperparameter Optimization for Multiple Machine Learning Algorithms using Optuna</li>
-          <li>optuclust</li>
-        </ul>
-        <li>Operating systems: GNU/Linux (Debian, Ubuntu)</li>
-      </ul>
-
-      <h4>Drug developement</h4>
-
-      <ul>
-        <li>Hit to lead:
-          <ul>
-            <li>compound modification in affordable chemical space</li>
-            <li>ADMET profiling</li>
-            <li>Selectivity profiling</li>
-            <li>SAR analysis</li>
+        <li><strong>Binding mode prediction</strong> with new scoring function AnnapuRNA. Combination of statistical
+          data extracted from X-ray structures and Machine Learning.<ul>
+            <li><a href="https://github.com/filipspl/AnnapuRNA">💾 repo</a> | <a
+                href="https://doi.org/10.1371/journal.pcbi.1008309">📄 the paper</a></li>
           </ul>
         </li>
-        <li>Organic synthesis planning</li>
-        <li>Patents, literature and database data analysis</li>
-        <li>Protein-ligand interaction analysis</li>
+        <li>RNA-ligand <strong>Interaction detection</strong> and classification with fingeRNAt.<ul>
+            <li><a href="https://github.com/n-szulc/fingeRNAt/">💾 repo</a> | <a
+                href="https://doi.org/10.1371/journal.pcbi.1009783">📄 the paper</a></li>
+          </ul>
+        </li>
+        <li>Structural Interaction Fingerprints and Machine Learning for <strong>predicting and explaining
+            binding</strong> of small molecule ligands to RNA.<ul>
+            <li><a href="https://github.com/filipspl/fingernat-ml/">💾 repo</a> | <a
+                href="https://doi.org/10.1093/bib/bbad187">📄 the paper</a></li>
+          </ul>
+        </li>
       </ul>
-
-      <h4>Computer Aided Drug Design</h4>
+      <h3 id="-protein-ligand-interactions-proteins">ⓑ Protein-ligand interactions &amp; proteins</h3>
       <ul>
-        <li>Suites: Accelrys Discovery Studio, Schrödinger suite</li>
-        <li>Ligand based methods: ShaEP, SHAFTS, align-it, fingerprint methods and others</li>
-        <li>Target based methods: molecular docking: Autodock Vina, iDock, rDock (protein and RNA docking)
-        <li>Data mining and QSAR/QSPR: KNIME, Orange McQsar</li>
-        <li>Structures handling and mining: Open Babel</li>
-        <li>Visualisation: PyMol, Chimera, gnuplot</li>
-        <li>Other: MOPAC, MestRec</li>
-        <li>Databases: ChemBlDb, BindingDB, PDB, PubChem, PubMed</li>
+        <li>Tox21 challenge - Prediction of Compounds Activity Using ML and Low-Dimensional Molecular Descriptors<ul>
+            <li><a href="https://github.com/filipsPL/tox21_dataset">💾 repo</a> | <a
+                href="https://doi.org/10.3389/fenvs.2015.00077">📄 the paper</a></li>
+          </ul>
+        </li>
+        <li>Predict Protein Stability Index (PSI) from the sequence with ML regression<ul>
+            <li><a href="https://github.com/filipsPL/degronopedia-ml-psi">💾 repo</a> | <a
+                href="https://doi.org/10.1101/2022.05.19.492622">📄 the paper</a></li>
+          </ul>
+        </li>
+        <li>Tox24 challenge - Prediction of Compounds Activity Using ML and Low-Dimensional Molecular Descriptors (2)
+          <ul>
+            <li><a href="https://github.com/filipsPL/tox24challenge">💾 repo</a></li>
+          </ul>
+        </li>
       </ul>
-
-      <h4>Data analysis and visualisation</h4>
+      <h2 id="-after-hours-science-">❷ After-hours science ⚗</h2>
       <ul>
-        <li>Big data sources: ChemBlDb, PubChem, PDB</li>
-        <li>Data analysis: KNIME, python (pandas, numpy)</li>
-        <li>Machine learning: KNIME, Weka, python (scipy), H2O (deep learning)</li>
-        <li>Data visualisation: python (matplotlib, seaborn), KNIME</li>
+        <li>Indoor cat localization using Bluetooth beacons and Machine Learning :cat:.<ul>
+            <li><a href="https://github.com/filipsPL/cat-localizer">💾 repo</a></li>
+          </ul>
+        </li>
+        <li>autowx2 - a set of programs and scripts for schedule satellite and ground recordings with SDR dongle.
+          Bundled plugins include scripts for processing weather APT images from NOAA or METEOR satellites, ISS voice
+          communication recordings, and more :satellite: .<ul>
+            <li><a href="https://github.com/filipsPL/autowx2">💾 repo</a></li>
+          </ul>
+        </li>
+        <li>Statistics of mass-running events (from 5K to marathons)<ul>
+            <li><a href="https://filipspl.github.io/statystykibiegowe/">💾 repo</a></li>
+          </ul>
+        </li>
+      </ul>
+      <h2 id="-tools-">❸ Tools 🛠</h2>
+      <ul>
+        <li>Console monitor for mqtt stream, with colors and filters<ul>
+            <li><a href="https://github.com/filipsPL/mqtt-monitor">💾 repo</a> | <a
+                href="https://github.com/hobbyquaker/awesome-mqtt">Awesome MQTT</a></li>
+          </ul>
+        </li>
+        <li>telegraf2rrd - pass data from telegraf to RRD database.<ul>
+            <li><a href="https://github.com/filipsPL/telegraf2rrd">💾 repo</a></li>
+          </ul>
+        </li>
       </ul>
 
-      <h4>Running and Triathlon - Personal Bests</h4>
+
+      <h2>➍ Running and Triathlon - Personal Bests</h2>
 
       <ul>
         <li>21:22 / 5 km (2022 ParkRun Warszawa)</li>
