@@ -155,9 +155,7 @@
 .buttonprotein {  background-color: #0d8369;}
     .buttonprotein::before {content: "proteins";}
 
-
 .paperMain {  background-color: #e8e8e8;}
-
 
 hr.dashed {
     border: 0;
