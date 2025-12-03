@@ -150,10 +150,10 @@
   .buttonmdata::before {content: "data mining";}
 .buttonreview {  background-color: silver;}
   .buttonreview::before {content: "review";}
-.buttonRNA {  background-color: #c44dff;}
-    .buttonRNA::before {content: "RNA";}
-.buttonProtein {  background-color: #4da6ff;}
-    .buttonProtein::before {content: "proteins";}
+.buttonrna {  background-color: #005bb1;}
+    .buttonrna::before {content: "RNA";}
+.buttonprotein {  background-color: #0d8369;}
+    .buttonprotein::before {content: "proteins";}
 
 
 .paperMain {  background-color: #e8e8e8;}
